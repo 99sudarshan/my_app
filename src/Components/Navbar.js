@@ -34,9 +34,9 @@ export default function Navbar(props) {
             <div className="bg-success rounded mx-2 " onClick={()=>props.toggleMode('success')} style={{height:'30px',width:'30px',cursor:'pointer'}}></div>
             <div className="bg-danger rounded mx-2 " onClick={()=>props.toggleMode('danger')} style={{height:'30px',width:'30px',cursor:'pointer'}}></div>
         </div>
-          <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
-              <input className="form-check-input" onClick={()=>props.toggleMode('null')} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
-              <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Toggle Mode</label>
+          <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`} >
+              <input className="form-check-input" onClick={()=>props.toggleMode('null')} type="checkbox" role="switch" id="flexSwitchCheckDefault"style={{cursor:'pointer'}}/>
+              <label className="form-check-label" htmlFor="flexSwitchCheckDefault"style={{cursor:'pointer'}}>Toggle Mode</label>
           </div>
         </div>
         </nav>
