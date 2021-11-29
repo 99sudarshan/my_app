@@ -24,7 +24,7 @@ export default function TextForm(props) {
 
     const handleCopy = (e) => {
         console.log(e);
-    
+        console.log("newbranch")
         let text = document.getElementById('myBox');
         text.select();
         document.execCommand('copy');
