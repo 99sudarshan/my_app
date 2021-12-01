@@ -11,7 +11,7 @@ export default function About(props) {
 
     let myStyle = {
         color: props.mode === 'dark' ? 'white' : 'black',
-        backgroundColor: props.mode === 'dark' ? 'rgb(43 56 118)' : 'white',
+        backgroundColor: props.mode === 'dark' ? '#151313' : 'white',
     }
 
     /* const [btnText, setbtnText] = useState('Enable Dark mode')
