@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.accordion-body{
+  border: 1px solid rgb(236, 225, 225);
+}
+
+.accordion-header {
+    border: 1px solid rgb(236, 225, 225); 
+}
+/* 
+.accordion-button::after{
+  filter: invert(1);
+} */
